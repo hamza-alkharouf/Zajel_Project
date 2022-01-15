@@ -1,0 +1,34 @@
+<%- include ('./partials/header') -%>
+<%- include ('./partials/navbar') -%>
+<div class="container">
+<<<<<<< HEAD
+=======
+
+>>>>>>> 0e5a2df8dab7acc9b30c9b93fb3b8e98d1c29e24
+<div class="wrapper fadeInDown cont">
+    <div id="formContent"style="border: 1px solid #4e73df;">
+    <div class="row">
+        <h1 style="text-align: center">reset password</h1>
+        
+        <div style="width: 50%; margin: 25px auto;"><hr>
+			<form action="/reset/<%= token %>" method="POST">
+				<div class="form-group">
+				  <input type="password" name="password" value="" placeholder="Password" autofocus="autofocus" class="form-control"/>
+				</div>
+				<div class="form-group">
+				  <input type="password" name="confirm" value=""placeholder="Confirm Password" class="form-control"/>
+				</div>
+				<div class="form-group">
+				  <button type="submit" class="btn btn-lg btn-primary btn-block"background-color:#4e73df;>Reset Password</button>
+				</div>
+			  </form>
+            
+        </div>
+    </div>
+</div>
+
+</div>
+</div>
+<%- include ('./partials/footer') -%>
+
+
